@@ -16,6 +16,8 @@
 
     <!--<bean class="org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping" />-->
 
+    <bean class="com.mmall.common.SpringExceptionResolver"/>
+
     <bean class="org.springframework.web.servlet.view.BeanNameViewResolver" />
 
     <bean id="jsonView" class="org.springframework.web.servlet.view.json.MappingJackson2JsonView" />

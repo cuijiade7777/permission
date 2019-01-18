@@ -32,7 +32,7 @@ public class SysDeptService {
     }
 
     private boolean checkExist(Integer parentId,String deptName,Integer deptId){
-        return false;// TODO: 2019/1/16
+        return true;// TODO: 2019/1/16
     }
 
     private String getLevel(Integer deptid){
